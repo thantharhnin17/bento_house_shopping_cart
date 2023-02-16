@@ -1,0 +1,55 @@
+.table{
+    width: 100%;
+    background-color: #F8F9FD;
+    /* table-layout: fixed; */
+}
+.td_img{
+    width: 180px;
+}
+.td_img img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+thead{
+    background-image: linear-gradient(to right, #f6d465 0%, #f98a6c 51%, #f6d465 100%) ;
+    border: none;
+}
+thead *{
+    border: none;
+}
+thead tr th{
+    padding: 30px 0.5rem !important;
+    border-bottom-width: 0;
+}
+tbody tr td{
+    padding: 20px 0.5rem !important;
+}
+th,td{
+    text-align: center;
+}
+td input{
+    padding: 5px;
+}
+.continue{
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    background-image: linear-gradient(to right, #f6d365 0%, #f98a6c 51%, #f6d365 100%) !important;
+    border: none;
+    box-shadow: 0 0 20px #eee;
+    background-size: 200% auto;
+    transition: all 0.5s;
+    padding: 10px 0;
+    color: #000;
+}
+.continue:hover {
+    color: #FFFFFF;
+    background-position: right center; /* change the direction of the change here */
+}
+tr td:first-child{
+    width: 10%;
+}
+tr td:last-child{
+    width: 18%;
+}

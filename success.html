@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bento House - Confirm</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        
+        <link rel="stylesheet" href="css/myStyle.css">
+    </head>
+<body onload="showItems()" style="height: calc(100vh);">
+    <!-- <div id="ans"></div> -->
+
+    <section class="py-5">
+        <div class="container px-4 mt-5 text-center">
+            <h1>Order Success!</h1>
+            <h1>Thank you for your order</h1>
+            <br>
+            <button class="btn btn-outline-dark" onclick="goHome(); return false;">Back To Home <i class="bi bi-house-fill"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark position-fixed bottom-0 w-100">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Bento House 2023 By thantharhninei@gicjp</p></div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script>
+        let goHome=()=>{
+            sessionStorage.clear(); 
+            window.location.href="index.html";
+        }
+    </script>
+</body>
+</html>
